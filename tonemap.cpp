@@ -16,7 +16,7 @@ int main(int argc, char* argv[])
 	float b = 0.6;float temp_b,temp_1,temp_2,Y,y_max,V;float temp_gamma,temp_gam2,temp_gam3;
 	unsigned char B,G,R;float temp_fix;int p[3];
 	IplImage *img_data,*img_rec,*img_temp,*img_hsv,*imgdata;
-	IplImage* img = cvLoadImage("C:\\Matlab\\examples\\adaptive_tone_mapping\\hdr14.jpg", CV_LOAD_IMAGE_COLOR);
+	IplImage* img = cvLoadImage("C:\\Matlab\\examples\\adaptive_tone_mapping\\hdr1.jpg", CV_LOAD_IMAGE_COLOR);
 
 	printf("Image depth: %d\n",img->depth);
 
